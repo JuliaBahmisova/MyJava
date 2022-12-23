@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Forwhile_2 {
+public class While_2 {
 
     public static void main(String[] args) {
         System.out.print("Введите число которое нужно возвести в степень");
@@ -10,8 +10,10 @@ public class Forwhile_2 {
         int n = sc.nextInt();
 
         int result = 1;
-        for (int i = 1; i <= n; i++) {
+        int i = 1;
+        while (i <= n) {
             result = result * x;
+            i++;
         }
 
         System.out.println(result);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Forwhile_1 {
+public class For_1 {
 
     public static void main(String[] args) {
         System.out.print("Введите любое целое положительное число до 15: ");
@@ -17,5 +17,4 @@ public class Forwhile_1 {
         }
         sc.close();
     }
-
 }
